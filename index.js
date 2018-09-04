@@ -31,7 +31,8 @@ bot.on("ready", async () => {
 });
 
 bot.on('message', msg => {
-  if (msg.content === '<@472778658734407680>') {
+  if (msg.content === '/acmds') {
+    if(!message.member.hasPermission("BAN_MEMBERS")) return message.channel.send("**:x: | N-ai gradul necesar pentru a folosii aceasta comanda!**");
     msg.author.send(`
     **:scroll: | COMMANDLIST**
     /clear - stergi numarul dorit de mesaje dupa un animit channel!
