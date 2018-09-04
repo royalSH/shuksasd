@@ -38,6 +38,8 @@ bot.on('message', msg => {
     /clear - stergi numarul dorit de mesaje dupa un animit channel!
     /setch - blochezi channel-ul pentru un anumit interval setat de tine!
     /gag - user-ul mentionat numai poate scrie pentru in interval de timp setat de tine!
+    /ban - user-ul mentionat va primii ban!
+    /kick - user-ul mentionat va fii scos dupa server!
     `);
   }
   const swearWords = ["discord.gg/", "discord.me/", "youtube.com/", "twitch.com/"];
